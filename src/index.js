@@ -512,7 +512,7 @@ class Posts extends Component {
         return this.state.post.map(user => (
             <div>
                 <div>{user.title}</div>
-                <button onClick={this.showPost}>Open post</button>
+                <button onClick={this.showPost}>Open post!!</button>
             </div>
         ));
     };
